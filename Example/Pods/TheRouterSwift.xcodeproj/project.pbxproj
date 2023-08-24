@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		071F2097326D57010C571FB58FEA6B20 /* TheRouterSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD26833D6362152D2E397E928D36A338 /* TheRouterSwift-dummy.m */; };
+		0EA7E3127077382411FF6F05548323B2 /* TheRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499CDFD2849B7D8118EC0038DA678618 /* TheRouter.swift */; };
+		178F6F8AAA3CD1E1962D0CD21BC0E2FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56453FAC3DF7687F71E60D3138EC9268 /* Foundation.framework */; };
+		32AB0632B442C558D3150775B6F63EBD /* TheRouter+Generate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BC39C599F4A6CBB54BB7D56A492BC8 /* TheRouter+Generate.swift */; };
+		4672FFC89EF6612C5C11F11E13428E96 /* TheRouterServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7290B7E7351B73A31C53C1832447F5 /* TheRouterServiceManager.swift */; };
+		69867F71A85E8D9AB56E85C779D26BBA /* TheRouter+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7174A2A4B8CE2AF12AE05CC0F572DC62 /* TheRouter+Convenience.swift */; };
+		6B0E915DC08AE7F28A4A80CF4AA3FBF2 /* TheRouterInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03524DC1ADD2A42A67DD9BA2722ED116 /* TheRouterInterceptor.swift */; };
+		83BF3D3A836044052A6DEC8A3D2BBAAD /* TheRouter+Jump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B2A46F38F325D6B3FD179F0EAC7A06 /* TheRouter+Jump.swift */; };
+		8F11BAEAD8775E53B766E76DC71D0155 /* TheRouterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F052B36F4C20CD2114BE8B6BC9C368 /* TheRouterRequest.swift */; };
+		92A67A12A8EED6AAB9502C33D2A1D3F5 /* TheRouterBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3D16447E644DC3BA62C2B264232EB0 /* TheRouterBuilder.swift */; };
+		949133EC32E2606D82B6D533B25710A2 /* TheRouterPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48F48FFDA875F8D9BA8214701D93B07 /* TheRouterPattern.swift */; };
+		9E336B8ECBFB0101B0B6BAD685FD0194 /* TheRouter+Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DBE6EC5694EB5824B2CB0F0FA8BC03 /* TheRouter+Service.swift */; };
+		A2FB4206FC27C8D6EED82D3817791FF2 /* TheRouterSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6F6A5ABAFD44DD6E6C4973823CCA09 /* TheRouterSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3421C4F5B5B848B375001D1C8C9D960 /* TheRouterServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59CEAA9610A97C7D68F3ABEDA7A5A5 /* TheRouterServiceProtocol.swift */; };
+		E18470888797317A3199E228DC537E3F /* TheRouterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCB078282E80C498DB7932119809B02 /* TheRouterManager.swift */; };
+		EA6DC4732661EA151A7917341D9AA670 /* TheRouterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8336346431FB8F58034B6654BE7C895 /* TheRouterable.swift */; };
+		F4C3CEFF4FC840046670CD0696E798B7 /* TheRouterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C8D96DF9A497A7341014B680BA710C /* TheRouterExtension.swift */; };
+		FB294B166DD5C8379DB6682829BF2A88 /* TheRouterParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8B226F30714F8430183A66D3B2D27E /* TheRouterParser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C70FE6E2A8B691C0016ECD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED69F8148F94B2F690B9CBD5571EF19F /* HandyJSON */;
+			proxyType = 2;
+			remoteGlobalIDString = 04CB150BF8CCAF444D9CC4284A595D74;
+			remoteInfo = HandyJSON;
+		};
+		B31ABF2FA86684096F10576CCF79A322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED69F8148F94B2F690B9CBD5571EF19F /* HandyJSON */;
+			proxyType = 1;
+			remoteGlobalIDString = 42160F46A22E1CA007076183E782CF4B;
+			remoteInfo = HandyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03524DC1ADD2A42A67DD9BA2722ED116 /* TheRouterInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TheRouterInterceptor.swift; path = TheRouterSwift/Classes/TheRouterInterceptor.swift; sourceTree = "<group>"; };
+		05B2A46F38F325D6B3FD179F0EAC7A06 /* TheRouter+Jump.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TheRouter+Jump.swift"; path = "TheRouterSwift/Classes/TheRouter+Jump.swift"; sourceTree = "<group>"; };
+		0AB09FCB7A8F272F88A4182BFE456B0B /* TheRouterSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TheRouterSwift.modulemap; sourceTree = "<group>"; };
+		0F7391A9E49102B7089201EE3CBC470C /* TheRouterSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TheRouterSwift.debug.xcconfig; sourceTree = "<group>"; };
+		2D8B226F30714F8430183A66D3B2D27E /* TheRouterParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TheRouterParser.swift; path = TheRouterSwift/Classes/TheRouterParser.swift; sourceTree = "<group>"; };
+		424F4F8EC1C1F7E05E7D39F3E26BA65E /* TheRouterSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TheRouterSwift-prefix.pch"; sourceTree = "<group>"; };
+		499CDFD2849B7D8118EC0038DA678618 /* TheRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TheRouter.swift; path = TheRouterSwift/Classes/TheRouter.swift; sourceTree = "<group>"; };
+		56453FAC3DF7687F71E60D3138EC9268 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B3D16447E644DC3BA62C2B264232EB0 /* TheRouterBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TheRouterBuilder.swift; path = TheRouterSwift/Classes/TheRouterBuilder.swift; sourceTree = "<group>"; };
+		636E88C51E6B6FD6C41DFC3139C15A34 /* TheRouterSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TheRouterSwift-Info.plist"; sourceTree = "<group>"; };
+		7174A2A4B8CE2AF12AE05CC0F572DC62 /* TheRouter+Convenience.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TheRouter+Convenience.swift"; path = "TheRouterSwift/Classes/TheRouter+Convenience.swift"; sourceTree = "<group>"; };
+		72C8D96DF9A497A7341014B680BA710C /* TheRouterExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TheRouterExtension.swift; path = TheRouterSwift/Classes/TheRouterExtension.swift; sourceTree = "<group>"; };
+		78F052B36F4C20CD2114BE8B6BC9C368 /* TheRouterRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TheRouterRequest.swift; path = TheRouterSwift/Classes/TheRouterRequest.swift; sourceTree = "<group>"; };
+		8AC1DA0065BE2B9A48DE117E93E0B760 /* TheRouterSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TheRouterSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8CCB078282E80C498DB7932119809B02 /* TheRouterManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TheRouterManager.swift; path = TheRouterSwift/Classes/TheRouterManager.swift; sourceTree = "<group>"; };
+		8E3D634A6E2B70732EF1E6A13123ADE6 /* TheRouterSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TheRouterSwift.release.xcconfig; sourceTree = "<group>"; };
+		91BC39C599F4A6CBB54BB7D56A492BC8 /* TheRouter+Generate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TheRouter+Generate.swift"; path = "TheRouterSwift/Classes/TheRouter+Generate.swift"; sourceTree = "<group>"; };
+		93DBE6EC5694EB5824B2CB0F0FA8BC03 /* TheRouter+Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TheRouter+Service.swift"; path = "TheRouterSwift/Classes/TheRouter+Service.swift"; sourceTree = "<group>"; };
+		954DD631ED1EF0590BB095DF4C364D93 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B8336346431FB8F58034B6654BE7C895 /* TheRouterable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TheRouterable.swift; path = TheRouterSwift/Classes/TheRouterable.swift; sourceTree = "<group>"; };
+		EB59CEAA9610A97C7D68F3ABEDA7A5A5 /* TheRouterServiceProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TheRouterServiceProtocol.swift; path = TheRouterSwift/Classes/TheRouterServiceProtocol.swift; sourceTree = "<group>"; };
+		ED69F8148F94B2F690B9CBD5571EF19F /* HandyJSON */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HandyJSON; path = HandyJSON.xcodeproj; sourceTree = "<group>"; };
+		EE7290B7E7351B73A31C53C1832447F5 /* TheRouterServiceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TheRouterServiceManager.swift; path = TheRouterSwift/Classes/TheRouterServiceManager.swift; sourceTree = "<group>"; };
+		F48F48FFDA875F8D9BA8214701D93B07 /* TheRouterPattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TheRouterPattern.swift; path = TheRouterSwift/Classes/TheRouterPattern.swift; sourceTree = "<group>"; };
+		F52392AED383969D64B94EADCE960FFC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FC6F6A5ABAFD44DD6E6C4973823CCA09 /* TheRouterSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TheRouterSwift-umbrella.h"; sourceTree = "<group>"; };
+		FD26833D6362152D2E397E928D36A338 /* TheRouterSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TheRouterSwift-dummy.m"; sourceTree = "<group>"; };
+		FD7F2B8FF0CDBE6670E550F839A80F00 /* TheRouterSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TheRouterSwift; path = TheRouterSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0579E6E41ED6FB22C4A676B9FDD2A12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178F6F8AAA3CD1E1962D0CD21BC0E2FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024A6E797E1C6B9A67165FBBAB50F475 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				954DD631ED1EF0590BB095DF4C364D93 /* LICENSE */,
+				F52392AED383969D64B94EADCE960FFC /* README.md */,
+				8AC1DA0065BE2B9A48DE117E93E0B760 /* TheRouterSwift.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0C7CC513D33D6694A7A9521C53FBDB25 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				ED69F8148F94B2F690B9CBD5571EF19F /* HandyJSON */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		0D3F8263CFC10443189CE4A373F8F286 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				56453FAC3DF7687F71E60D3138EC9268 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1ABDA194955A796D86080EC81BB6E5D2 /* TheRouterSwift */ = {
+			isa = PBXGroup;
+			children = (
+				499CDFD2849B7D8118EC0038DA678618 /* TheRouter.swift */,
+				7174A2A4B8CE2AF12AE05CC0F572DC62 /* TheRouter+Convenience.swift */,
+				91BC39C599F4A6CBB54BB7D56A492BC8 /* TheRouter+Generate.swift */,
+				05B2A46F38F325D6B3FD179F0EAC7A06 /* TheRouter+Jump.swift */,
+				93DBE6EC5694EB5824B2CB0F0FA8BC03 /* TheRouter+Service.swift */,
+				B8336346431FB8F58034B6654BE7C895 /* TheRouterable.swift */,
+				5B3D16447E644DC3BA62C2B264232EB0 /* TheRouterBuilder.swift */,
+				72C8D96DF9A497A7341014B680BA710C /* TheRouterExtension.swift */,
+				03524DC1ADD2A42A67DD9BA2722ED116 /* TheRouterInterceptor.swift */,
+				8CCB078282E80C498DB7932119809B02 /* TheRouterManager.swift */,
+				2D8B226F30714F8430183A66D3B2D27E /* TheRouterParser.swift */,
+				F48F48FFDA875F8D9BA8214701D93B07 /* TheRouterPattern.swift */,
+				78F052B36F4C20CD2114BE8B6BC9C368 /* TheRouterRequest.swift */,
+				EE7290B7E7351B73A31C53C1832447F5 /* TheRouterServiceManager.swift */,
+				EB59CEAA9610A97C7D68F3ABEDA7A5A5 /* TheRouterServiceProtocol.swift */,
+				024A6E797E1C6B9A67165FBBAB50F475 /* Pod */,
+				5A5A09FCF1D6721ABE01CA0C259FF7AD /* Support Files */,
+			);
+			name = TheRouterSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1C70FE6C2A8B59930016ECD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C70FE6F2A8B691C0016ECD6 /* HandyJSON */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B307AE4DF79BA57CCBFECFB29541833 = {
+			isa = PBXGroup;
+			children = (
+				0C7CC513D33D6694A7A9521C53FBDB25 /* Dependencies */,
+				74311DB4A24B0C25BFF96C35BE71441D /* Frameworks */,
+				C3F6907BF2A196FE994C3D641AEAB75D /* Products */,
+				1ABDA194955A796D86080EC81BB6E5D2 /* TheRouterSwift */,
+			);
+			sourceTree = "<group>";
+		};
+		5A5A09FCF1D6721ABE01CA0C259FF7AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AB09FCB7A8F272F88A4182BFE456B0B /* TheRouterSwift.modulemap */,
+				FD26833D6362152D2E397E928D36A338 /* TheRouterSwift-dummy.m */,
+				636E88C51E6B6FD6C41DFC3139C15A34 /* TheRouterSwift-Info.plist */,
+				424F4F8EC1C1F7E05E7D39F3E26BA65E /* TheRouterSwift-prefix.pch */,
+				FC6F6A5ABAFD44DD6E6C4973823CCA09 /* TheRouterSwift-umbrella.h */,
+				0F7391A9E49102B7089201EE3CBC470C /* TheRouterSwift.debug.xcconfig */,
+				8E3D634A6E2B70732EF1E6A13123ADE6 /* TheRouterSwift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TheRouterSwift";
+			sourceTree = "<group>";
+		};
+		74311DB4A24B0C25BFF96C35BE71441D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D3F8263CFC10443189CE4A373F8F286 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3F6907BF2A196FE994C3D641AEAB75D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD7F2B8FF0CDBE6670E550F839A80F00 /* TheRouterSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CBE917747E1839980A6C1C79F83943A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FB4206FC27C8D6EED82D3817791FF2 /* TheRouterSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D343AE0185C9298C1AC7FC1AEDACEE54 /* TheRouterSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 996377FFE901D6B7339AA4E5CC52902D /* Build configuration list for PBXNativeTarget "TheRouterSwift" */;
+			buildPhases = (
+				CBE917747E1839980A6C1C79F83943A2 /* Headers */,
+				A6795F66F71B11C0A57988675B1549FB /* Sources */,
+				0579E6E41ED6FB22C4A676B9FDD2A12E /* Frameworks */,
+				FEC8E768BFABB57089AC86E23CD54776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDC8CA1198D811BAE39F9D3F8CA3F7D3 /* PBXTargetDependency */,
+			);
+			name = TheRouterSwift;
+			productName = TheRouterSwift;
+			productReference = FD7F2B8FF0CDBE6670E550F839A80F00 /* TheRouterSwift */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8892E54E2D5373019B9FBE62F878AA2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 09CD11A0AB54B254F65828E523C039A4 /* Build configuration list for PBXProject "TheRouterSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 2B307AE4DF79BA57CCBFECFB29541833;
+			productRefGroup = C3F6907BF2A196FE994C3D641AEAB75D /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1C70FE6C2A8B59930016ECD6 /* Products */;
+					ProjectRef = ED69F8148F94B2F690B9CBD5571EF19F /* HandyJSON */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D343AE0185C9298C1AC7FC1AEDACEE54 /* TheRouterSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1C70FE6F2A8B691C0016ECD6 /* HandyJSON */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			name = HandyJSON;
+			path = HandyJSON.framework;
+			remoteRef = 1C70FE6E2A8B691C0016ECD6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEC8E768BFABB57089AC86E23CD54776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6795F66F71B11C0A57988675B1549FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA7E3127077382411FF6F05548323B2 /* TheRouter.swift in Sources */,
+				69867F71A85E8D9AB56E85C779D26BBA /* TheRouter+Convenience.swift in Sources */,
+				32AB0632B442C558D3150775B6F63EBD /* TheRouter+Generate.swift in Sources */,
+				83BF3D3A836044052A6DEC8A3D2BBAAD /* TheRouter+Jump.swift in Sources */,
+				9E336B8ECBFB0101B0B6BAD685FD0194 /* TheRouter+Service.swift in Sources */,
+				EA6DC4732661EA151A7917341D9AA670 /* TheRouterable.swift in Sources */,
+				92A67A12A8EED6AAB9502C33D2A1D3F5 /* TheRouterBuilder.swift in Sources */,
+				F4C3CEFF4FC840046670CD0696E798B7 /* TheRouterExtension.swift in Sources */,
+				6B0E915DC08AE7F28A4A80CF4AA3FBF2 /* TheRouterInterceptor.swift in Sources */,
+				E18470888797317A3199E228DC537E3F /* TheRouterManager.swift in Sources */,
+				FB294B166DD5C8379DB6682829BF2A88 /* TheRouterParser.swift in Sources */,
+				949133EC32E2606D82B6D533B25710A2 /* TheRouterPattern.swift in Sources */,
+				8F11BAEAD8775E53B766E76DC71D0155 /* TheRouterRequest.swift in Sources */,
+				4672FFC89EF6612C5C11F11E13428E96 /* TheRouterServiceManager.swift in Sources */,
+				D3421C4F5B5B848B375001D1C8C9D960 /* TheRouterServiceProtocol.swift in Sources */,
+				071F2097326D57010C571FB58FEA6B20 /* TheRouterSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDC8CA1198D811BAE39F9D3F8CA3F7D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HandyJSON;
+			targetProxy = B31ABF2FA86684096F10576CCF79A322 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02D124A28A6966E1D25B9AC934C3123C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		31BABF23F1C7E3B850C45DDAC7334A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F7391A9E49102B7089201EE3CBC470C /* TheRouterSwift.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TheRouterSwift/TheRouterSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TheRouterSwift/TheRouterSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/TheRouterSwift/TheRouterSwift.modulemap";
+				PRODUCT_MODULE_NAME = TheRouterSwift;
+				PRODUCT_NAME = TheRouterSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F2C1B7E88C52297E11BDF592AA6092A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A914B337B63B24244C87C041203767EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3D634A6E2B70732EF1E6A13123ADE6 /* TheRouterSwift.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TheRouterSwift/TheRouterSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TheRouterSwift/TheRouterSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/TheRouterSwift/TheRouterSwift.modulemap";
+				PRODUCT_MODULE_NAME = TheRouterSwift;
+				PRODUCT_NAME = TheRouterSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09CD11A0AB54B254F65828E523C039A4 /* Build configuration list for PBXProject "TheRouterSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D124A28A6966E1D25B9AC934C3123C /* Debug */,
+				4F2C1B7E88C52297E11BDF592AA6092A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		996377FFE901D6B7339AA4E5CC52902D /* Build configuration list for PBXNativeTarget "TheRouterSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BABF23F1C7E3B850C45DDAC7334A63 /* Debug */,
+				A914B337B63B24244C87C041203767EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8892E54E2D5373019B9FBE62F878AA2D /* Project object */;
+}

@@ -1,0 +1,40 @@
+{
+  "name": "TheRouterSwift",
+  "version": "0.1.0",
+  "summary": "A short description of TheRouterSwift.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://gitlab.huolala.cn/group-wp-open/therouter-swift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "huolala": "huolala"
+  },
+  "source": {
+    "git": "ssh://git@gitlab.huolala.cn:56358/group-wp-open/therouter-swift.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "TheRouterSwift/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "platforms": {
+    "ios": "11.0"
+  },
+  "swift_versions": "5.0",
+  "static_framework": true,
+  "dependencies": {
+    "HandyJSON": [
+
+    ]
+  },
+  "xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "pod_target_xcconfig": {
+    "OTHER_SWIFT_FLAGS[config=Debug]": "-D DEBUG"
+  },
+  "swift_version": "5.0"
+}
