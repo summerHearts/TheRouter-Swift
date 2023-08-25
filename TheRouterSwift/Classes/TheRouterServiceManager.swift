@@ -11,7 +11,7 @@ public typealias LAServiceCreator = () -> Any
 public final class TheRouterServiceManager {
     
     public static let `default` = TheRouterServiceManager()
-        
+    
     public init() {}
     
     /// Service 同步

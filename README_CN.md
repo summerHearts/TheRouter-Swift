@@ -488,7 +488,7 @@ if fullName.hasPrefix(NSKVONotifyingPrefix) {
 定义路由下发模型数据结构
 
 ```Swift
-public struct TheRouterInfo: HandyJSON {
+public struct TheRouterInfo {
     public init() {}
     
     public var targetPath: String = ""

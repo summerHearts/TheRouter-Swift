@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import HandyJSON
 
 public class TheRouter: TheRouterParser {
     
@@ -213,11 +212,11 @@ public class TheRouter: TheRouterParser {
             
             for rouerInfo in reloadRouterMap {
                 
-                if (rouerInfo.routerType == .replace) {
+                if (rouerInfo.routerType == TheRouterReloadMapEnum.replace.rawValue) {
                     if (patterns.first(where: { $0.patternString == rouerInfo.orginPath }) != nil) {
-                        orignRouterUrl = rouerInfo.orginPath
-                        replacedRouterUrl = rouerInfo.targetPath
-                        replaceParam = rouerInfo.params
+                        orignRouterUrl = rouerInfo.orginPath ?? ""
+                        replacedRouterUrl = rouerInfo.targetPath ?? ""
+                        replaceParam = rouerInfo.params ?? [:]
                     }
                 }
             }

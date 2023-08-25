@@ -489,7 +489,7 @@ Under the above routing capability, we hope that the App can dynamically add rou
 Define the routing delivery model data structure
 
 ```Swift
-public struct TheRouterInfo: HandyJSON {
+public struct TheRouterInfo {
     public init() {}
     
     public var targetPath: String = ""

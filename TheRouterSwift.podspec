@@ -23,7 +23,7 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/summerHearts/TheRouter-Swift'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'huolala' => 'huolala' }
+  s.author           = { 'mars.yao' => 'mars.yao' }
   s.source           = { :git => 'https://github.com/summerHearts/TheRouter-Swift.git', :tag => s.version.to_s }
   s.source_files = 'TheRouterSwift/Classes/**/*'
   s.frameworks = 'UIKit', 'Foundation'
@@ -31,7 +31,6 @@ TODO: Add long description of the pod here.
   # swift 支持的版本
   s.swift_version = '5.0'
   s.static_framework = true
-  s.dependency 'HandyJSON'
   s.xcconfig = {"ENABLE_BITCODE" => "NO"}
   s.pod_target_xcconfig = {
     'OTHER_SWIFT_FLAGS[config=Debug]' => '-D DEBUG'

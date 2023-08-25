@@ -6,13 +6,12 @@
 //
 
 import Foundation
-import HandyJSON
 
 /// 对于KVO监听，动态创建子类，需要特殊处理
 public let NSKVONotifyingPrefix = "NSKVONotifying_"
 
 public class TheRouterManager: NSObject {
-        
+    
     static public let shareInstance = TheRouterManager()
     
     // MARK: - 注册路由
@@ -130,22 +129,21 @@ extension TheRouterManager {
     }
     
     // MARK: - 重定向、剔除、新增、重置路由
-    public static func addRelocationHandle(routerMapList: [NSDictionary] = []) {
+    public static func addRelocationHandle(routerMapList: [TheRouterInfo] = []) {
         // 数组为空 return
         if routerMapList.count == 0 {
             return
         }
         // 新增的重定向信息转模型
         var currentRouterInfo = [TheRouterInfo]()
-        for routerMap in routerMapList {
-            guard let routerInfoInstance = TheRouterInfo.deserialize(from: routerMap) else {
-                return
-            }
-            if routerInfoInstance.routerType == .add {
-                TheRouter.addRouterItem(routerInfoInstance.path, classString: routerInfoInstance.className)
-            } else if routerInfoInstance.routerType == .delete {
-                TheRouter.removeRouter(routerInfoInstance.path)
-            } else if routerInfoInstance.routerType == .replace || routerInfoInstance.routerType == .reset {
+        for routerInfoInstance in routerMapList {
+            
+            if routerInfoInstance.routerType == TheRouterReloadMapEnum.add.rawValue {
+                TheRouter.addRouterItem(routerInfoInstance.path ?? "", classString: routerInfoInstance.className ?? "")
+            } else if routerInfoInstance.routerType == TheRouterReloadMapEnum.delete.rawValue {
+                TheRouter.removeRouter(routerInfoInstance.path ?? "")
+            } else if routerInfoInstance.routerType == TheRouterReloadMapEnum.replace.rawValue ||
+                        routerInfoInstance.routerType == TheRouterReloadMapEnum.reset.rawValue {
                 currentRouterInfo.append(routerInfoInstance)
             }
         }
@@ -157,25 +155,25 @@ extension TheRouterManager {
         let routerInfoList: [TheRouterInfo] = TheRouter.shareInstance.reloadRouterMap
         var routerInfoMap: [String: TheRouterInfo] = [String: TheRouterInfo]()
         for list in routerInfoList {
-            routerInfoMap[list.orginPath] = list
+            routerInfoMap[list.orginPath ?? ""] = list
         }
         // 数据对比
         // routerType为delete时
         // orginPath与targetPath一致时，删除所有orginPath的重定向数据
         // orginPath与targetPath不一致时，删除原有orginPath的重定向数据，存储新的orginPath数据并把routerType改为add
         for info in currentRouterInfo {
-            if info.routerType == .reset {
+            if info.routerType == TheRouterReloadMapEnum.reset.rawValue {
                 // 如果已经存在相同orginPath的数据 需要先remove
-                if routerInfoMap[info.orginPath] != nil {
-                    routerInfoMap.removeValue(forKey: info.orginPath)
+                if routerInfoMap[info.orginPath ?? ""] != nil {
+                    routerInfoMap.removeValue(forKey: info.orginPath ?? "")
                 }
                 if info.orginPath != info.targetPath {
                     var routerInfo = info
-                    routerInfo.routerType = .replace
-                    routerInfoMap[routerInfo.orginPath] = routerInfo
+                    routerInfo.routerType = TheRouterReloadMapEnum.replace.rawValue
+                    routerInfoMap[routerInfo.orginPath ?? ""] = routerInfo
                 }
-            } else if info.routerType == .replace {
-                routerInfoMap[info.orginPath] = info
+            } else if info.routerType == TheRouterReloadMapEnum.replace.rawValue {
+                routerInfoMap[info.orginPath ?? ""] = info
             }
         }
         // [String: TheRouterInfo] 转 [TheRouterInfo]
@@ -225,49 +223,3 @@ extension TheRouterManager {
         try! data.write(to: url, options: .atomic)
     }
 }
-
-extension Array where Element: Comparable {
-    func containsSameElements(as other: [Element]) -> Bool {
-        return self.count == other.count && self.sorted() == other.sorted()
-    }
-}
-
-public class TheRouterApiBundleTool {
-    
-    /// 根据podName找到bundle
-    public static func ext_SwiftBundle(podName:String) -> Bundle? {
-        let bundlePath:String? = ext_SwiftBundlePath(podName:podName)
-        return Bundle(path: bundlePath ?? "")
-    }
-    
-    /// 根据podName找到bundlePath
-    public static func ext_SwiftBundlePath(podName:String) -> String? {
-        var bundlePath: String?
-        for bundle: Bundle in Bundle.allBundles {
-            bundlePath = bundle.path(forResource: podName, ofType: "bundle")
-            if bundlePath != nil && bundlePath?.count != 0 {
-                return bundlePath
-            }
-        }
-        
-        for bundle: Bundle in Bundle.allFrameworks {
-            bundlePath = bundle.path(forResource: podName, ofType: "bundle")!
-            if bundlePath != nil && bundlePath?.count != 0 {
-                return bundlePath
-            }
-        }
-        return bundlePath
-    }
-    
-    //MARK: - 获取资源文件
-    public static func getBundleResource(podName: String,
-                                         resourceName:String,
-                                         resourseType: String) -> URL? {
-        
-        let bundle = ext_SwiftBundle(podName: podName)
-        let path = bundle!.url(forResource: resourceName, withExtension: resourseType)
-        return path
-    }
-    
-}
-

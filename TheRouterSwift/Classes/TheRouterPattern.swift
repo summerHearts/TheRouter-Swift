@@ -14,10 +14,10 @@ public class TheRouterPattern: TheRouterParser {
     
     public var patternString: String
     public var sheme: String
-    public  var patternPaths: [String]
-    public  var priority: uint
-    public  var handle: HandleBlock
-    public  var matchString: String
+    public var patternPaths: [String]
+    public var priority: uint
+    public var handle: HandleBlock
+    public var matchString: String
     public var paramsMatchDict: [String: Int]
     
     public init(_ string: String,
