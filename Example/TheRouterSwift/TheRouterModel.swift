@@ -7,9 +7,8 @@
 //
 
 import Foundation
-import HandyJSON
 
-struct TheRouterModel: HandyJSON {
+struct TheRouterModel: Codable {
     var name: String?
     var age: Int?
 }

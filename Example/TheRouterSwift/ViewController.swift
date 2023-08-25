@@ -196,23 +196,31 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func dynamicRouter(indexPath: IndexPath) {
         switch indexPath.row {
         case 0:
-            let relocationMap = ["routerType": 1, "targetPath": "scheme://router/demo1", "orginPath": "scheme://router/demo"] as NSDictionary
-            TheRouterManager.addRelocationHandle(routerMapList: [relocationMap])
+            let relocationMap: NSDictionary = ["routerType": 1, "targetPath": "scheme://router/demo1", "orginPath": "scheme://router/demo"]
+            let data = try! JSONSerialization.data(withJSONObject: relocationMap, options: [])
+            let routeReMapInfo = try! JSONDecoder().decode(TheRouterInfo.self, from: data)
+            TheRouterManager.addRelocationHandle(routerMapList: [routeReMapInfo])
             TheRouter.openURL("scheme://router/demo?desc=跳转白色界面被重定向到了黄色界面")
         case 1:
             
-            let relocationMap = ["routerType": 4, "targetPath": "scheme://router/demo", "orginPath": "scheme://router/demo"] as NSDictionary
-            TheRouterManager.addRelocationHandle(routerMapList: [relocationMap])
+            let relocationMap: NSDictionary = ["routerType": 4, "targetPath": "scheme://router/demo", "orginPath": "scheme://router/demo"]
+            let data = try! JSONSerialization.data(withJSONObject: relocationMap, options: [])
+            let routeReMapInfo = try! JSONDecoder().decode(TheRouterInfo.self, from: data)
+            TheRouterManager.addRelocationHandle(routerMapList: [routeReMapInfo])
             TheRouter.openURL("scheme://router/demo?desc=跳转白色界面被重定向到了黄色界面之后，根据下发数据又恢复到跳转白色界面")
         case 2:
-            let relocationMap = ["routerType": 2, "className": "TheRouterSwift_Example.TheRouterControllerC", "path": "scheme://router/demo33"] as NSDictionary
-            TheRouterManager.addRelocationHandle(routerMapList: [relocationMap])
+            let relocationMap: NSDictionary = ["routerType": 2, "className": "TheRouterSwift_Example.TheRouterControllerC", "path": "scheme://router/demo33"]
+            let data = try! JSONSerialization.data(withJSONObject: relocationMap, options: [])
+            let routeReMapInfo = try! JSONDecoder().decode(TheRouterInfo.self, from: data)
+            TheRouterManager.addRelocationHandle(routerMapList: [routeReMapInfo])
             let value = TheRouterCApi.init().requiredURL
             TheRouter.openURL(value)
           
         case 3:
-            let relocationMap = ["routerType": 2, "className": "TheRouterSwift_Example.TheRouterControllerD", "path": "scheme://router/demo5"] as NSDictionary
-            TheRouterManager.addRelocationHandle(routerMapList: [relocationMap])
+            let relocationMap: NSDictionary = ["routerType": 2, "className": "TheRouterSwift_Example.TheRouterControllerD", "path": "scheme://router/demo5"]
+            let data = try! JSONSerialization.data(withJSONObject: relocationMap, options: [])
+            let routeReMapInfo = try! JSONDecoder().decode(TheRouterInfo.self, from: data)
+            TheRouterManager.addRelocationHandle(routerMapList: [routeReMapInfo])
             TheRouter.openURL("scheme://router/demo5?desc=demo5是Android一个界面的Path,为了双端统一，我们动态增加一个Path,这样远端下发时demo5也就能跳转了")
         case 4:
             if let appConfigService = TheRouter.getService(AppConfigServiceProtocol.self) {

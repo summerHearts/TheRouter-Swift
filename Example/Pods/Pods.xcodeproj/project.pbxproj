@@ -7,76 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A9901773A742008A6D09EC57500C90B /* Pods-TheRouterSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3006532F1DBB98CA98DEA991E26FD7 /* Pods-TheRouterSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		29E0C37915BC1B08A16B62C80B8D6135 /* Pods-TheRouterSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 425018D92D9043AE0F171D88798F3867 /* Pods-TheRouterSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DA1A4DD5923D1214BD66344617A6BAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		54E5A1504517A99818E3B3A091C2688F /* Pods-TheRouterSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8977B8C85FBAE1EB14C3112880A3604 /* Pods-TheRouterSwift_Example-dummy.m */; };
 		98CDE1A62F4711B04D7BD20D61F439CA /* Pods-TheRouterSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E814F980E62CC260C2E930A9B696180 /* Pods-TheRouterSwift_Tests-dummy.m */; };
+		99F02F24FA5E950EB3BBC13319A2C55B /* Pods-TheRouterSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8977B8C85FBAE1EB14C3112880A3604 /* Pods-TheRouterSwift_Example-dummy.m */; };
 		DE2361FD17AFB7D0761498861C60D7E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E60B09C16860EC1BD8BCBEA543A7EB13 /* Pods-TheRouterSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F3006532F1DBB98CA98DEA991E26FD7 /* Pods-TheRouterSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E64A4C0FCE8735B62791B21EFAB44348 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6DF7EA3F96750725093F0B9BDECDDECC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = AE5BC55B436CE15F08F3E9651095A860 /* JKSwiftExtension.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = B178E263DCED77DC9814D7DA9D79BBCD;
-			remoteInfo = JKSwiftExtension;
-		};
-		9FD3681B06DFAFD40A1AB4DC40306AB7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0EAEA5511B35E19F549333C2D4E48665;
-			remoteInfo = "Pods-TheRouterSwift_Example";
-		};
-		A1D9D389375BAF45E6AFEC723FBCF5D8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 92E5B50508C2C2E70F345B3D4A81AE92 /* HandyJSON.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 42160F46A22E1CA007076183E782CF4B;
-			remoteInfo = HandyJSON;
-		};
-		B374D41509B86C91D38747AD466AB262 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 156733D8FC84DA5B264FD8577DA1F08B /* Toast.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 33C24699A9A19E75BC1DA302FBB8EA84;
-			remoteInfo = Toast;
-		};
-		D0488DF4DA4538F7CDE829574C7CDB08 /* PBXContainerItemProxy */ = {
+		133C79390FB659506025B311559B7A1B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C19C698356F016FEA8889CBC0BA363FE /* TheRouterSwift.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = D343AE0185C9298C1AC7FC1AEDACEE54;
 			remoteInfo = TheRouterSwift;
 		};
-		DA03887A5B4B7C107507E85CA53F47A9 /* PBXContainerItemProxy */ = {
+		19A27797B6AE8F637A350669018C3905 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B3E911B86853695C54B72BB762972700 /* SnapKit.xcodeproj */;
+			containerPortal = 9E5E225267FC27B54765513250E010CD /* JKSwiftExtension.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B178E263DCED77DC9814D7DA9D79BBCD;
+			remoteInfo = JKSwiftExtension;
+		};
+		9EFD6E9C06FF306AE35F01A33F1EFD62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ABAD42CD64133FA00EEC54EF649E430 /* SnapKit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 6913FCF4B90C224E55FE5C821AFB90D2;
 			remoteInfo = SnapKit;
+		};
+		C690808599B143AE0851B0032A43AD5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EAEA5511B35E19F549333C2D4E48665;
+			remoteInfo = "Pods-TheRouterSwift_Example";
+		};
+		E84894C86A481154CDE915B039D8040E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 690EF3777F5496AF316CEE0ECFA46FB2 /* Toast.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 33C24699A9A19E75BC1DA302FBB8EA84;
+			remoteInfo = Toast;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0D30908EEB82F2B7FDC37ED58DDB0A7F /* Pods-TheRouterSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TheRouterSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1419A9BE085E2485EA13B160E0EEB510 /* Pods-TheRouterSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TheRouterSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		156733D8FC84DA5B264FD8577DA1F08B /* Toast */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Toast; path = Toast.xcodeproj; sourceTree = "<group>"; };
 		1E814F980E62CC260C2E930A9B696180 /* Pods-TheRouterSwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TheRouterSwift_Tests-dummy.m"; sourceTree = "<group>"; };
 		425018D92D9043AE0F171D88798F3867 /* Pods-TheRouterSwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TheRouterSwift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4F3006532F1DBB98CA98DEA991E26FD7 /* Pods-TheRouterSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TheRouterSwift_Example-umbrella.h"; sourceTree = "<group>"; };
+		690EF3777F5496AF316CEE0ECFA46FB2 /* Toast */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Toast; path = Toast.xcodeproj; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7B12BC697E5C3723025CB05D1D35E216 /* Pods-TheRouterSwift_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TheRouterSwift_Tests-Info.plist"; sourceTree = "<group>"; };
 		7CC34B41ABF20209BE5FE231E1740564 /* Pods-TheRouterSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TheRouterSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		92E5B50508C2C2E70F345B3D4A81AE92 /* HandyJSON */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HandyJSON; path = HandyJSON.xcodeproj; sourceTree = "<group>"; };
+		9ABAD42CD64133FA00EEC54EF649E430 /* SnapKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit; path = SnapKit.xcodeproj; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E5E225267FC27B54765513250E010CD /* JKSwiftExtension */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JKSwiftExtension; path = JKSwiftExtension.xcodeproj; sourceTree = "<group>"; };
 		AC3B414A09748B8953C61C4230EF298A /* Pods-TheRouterSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TheRouterSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AD9A7827D91AA3A9FFA0FE660C4E3B25 /* Pods-TheRouterSwift_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TheRouterSwift_Tests"; path = Pods_TheRouterSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE5BC55B436CE15F08F3E9651095A860 /* JKSwiftExtension */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JKSwiftExtension; path = JKSwiftExtension.xcodeproj; sourceTree = "<group>"; };
 		AF3C86D27E305C0A3793A52C31180E99 /* Pods-TheRouterSwift_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TheRouterSwift_Example"; path = Pods_TheRouterSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3E911B86853695C54B72BB762972700 /* SnapKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit; path = SnapKit.xcodeproj; sourceTree = "<group>"; };
 		B8977B8C85FBAE1EB14C3112880A3604 /* Pods-TheRouterSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TheRouterSwift_Example-dummy.m"; sourceTree = "<group>"; };
 		C19C698356F016FEA8889CBC0BA363FE /* TheRouterSwift */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TheRouterSwift; path = TheRouterSwift.xcodeproj; sourceTree = "<group>"; };
 		C2BA42B3284B011D12B1D48F82BEB1B8 /* Pods-TheRouterSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TheRouterSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -90,19 +82,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3B11A4CD7F415C77DA94CC96AE749402 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4DA1A4DD5923D1214BD66344617A6BAE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ABBDEE690FA865F7C98D96B0F3496848 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DE2361FD17AFB7D0761498861C60D7E9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D95AA37D61ECEBA3C824C062DDF11949 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64A4C0FCE8735B62791B21EFAB44348 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +115,16 @@
 			);
 			name = "Pods-TheRouterSwift_Tests";
 			path = "Target Support Files/Pods-TheRouterSwift_Tests";
+			sourceTree = "<group>";
+		};
+		4FCAEFBFE93E11FEFA59CF9C07FBCA55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E5E225267FC27B54765513250E010CD /* JKSwiftExtension */,
+				9ABAD42CD64133FA00EEC54EF649E430 /* SnapKit */,
+				690EF3777F5496AF316CEE0ECFA46FB2 /* Toast */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -159,17 +161,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B9DE6DE7E7EB3C245A1C1DC81007E355 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				92E5B50508C2C2E70F345B3D4A81AE92 /* HandyJSON */,
-				AE5BC55B436CE15F08F3E9651095A860 /* JKSwiftExtension */,
-				B3E911B86853695C54B72BB762972700 /* SnapKit */,
-				156733D8FC84DA5B264FD8577DA1F08B /* Toast */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		BE858F6384D8A13F92293E2A94DA1EB5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,7 +176,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				DB5464E556F182A330701FCB2BEEBB1D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				B9DE6DE7E7EB3C245A1C1DC81007E355 /* Pods */,
+				4FCAEFBFE93E11FEFA59CF9C07FBCA55 /* Pods */,
 				BE858F6384D8A13F92293E2A94DA1EB5 /* Products */,
 				9F870568D8D4826E231F6B5E63864577 /* Targets Support Files */,
 			);
@@ -218,11 +209,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7DBD1F00074FF7B29B42A28BB36CEDF /* Headers */ = {
+		580F288FA10A7DE804FCC730D73061AD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E60B09C16860EC1BD8BCBEA543A7EB13 /* Pods-TheRouterSwift_Example-umbrella.h in Headers */,
+				1A9901773A742008A6D09EC57500C90B /* Pods-TheRouterSwift_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,21 +222,20 @@
 /* Begin PBXNativeTarget section */
 		0EAEA5511B35E19F549333C2D4E48665 /* Pods-TheRouterSwift_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A462296045A363B73A03A9EABAEBCB35 /* Build configuration list for PBXNativeTarget "Pods-TheRouterSwift_Example" */;
+			buildConfigurationList = 7039EC201F62F161F598071313DC6371 /* Build configuration list for PBXNativeTarget "Pods-TheRouterSwift_Example" */;
 			buildPhases = (
-				C7DBD1F00074FF7B29B42A28BB36CEDF /* Headers */,
-				829B9C06F0250D8AE14B88479EDC68D6 /* Sources */,
-				3B11A4CD7F415C77DA94CC96AE749402 /* Frameworks */,
-				986B8DD6E8045308F5C06E5BCC1AE8B1 /* Resources */,
+				580F288FA10A7DE804FCC730D73061AD /* Headers */,
+				8448BF92C2C62CDF75FC315A2321ACAF /* Sources */,
+				D95AA37D61ECEBA3C824C062DDF11949 /* Frameworks */,
+				A112E043D26BC1812C39732A596C77C1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				898B3405DE19306DB2C24368211089EC /* PBXTargetDependency */,
-				2BB52F3A4A6E0FC2010145CC9A0D2FE4 /* PBXTargetDependency */,
-				324E09F6BDD6576765FF492243622E79 /* PBXTargetDependency */,
-				4C5F6A32972363E98BFDF71732CA3AEB /* PBXTargetDependency */,
-				3AFFF02038603187EDC8D97AE52FFDA7 /* PBXTargetDependency */,
+				B8718C23B14B9093547FC2B678170F67 /* PBXTargetDependency */,
+				3CA496B25A396F36E336C59BEC5B298E /* PBXTargetDependency */,
+				7FCC35B63B0090F3D72D0827CB7CA01A /* PBXTargetDependency */,
+				DECBF07AA25EF04922A4810F0B0D2116 /* PBXTargetDependency */,
 			);
 			name = "Pods-TheRouterSwift_Example";
 			productName = Pods_TheRouterSwift_Example;
@@ -264,7 +254,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A2FAFF0C33F6BD2CA8892EE9260A4A6C /* PBXTargetDependency */,
+				CF3CA46651CF484AFBBB898FDFABD1A9 /* PBXTargetDependency */,
 			);
 			name = "Pods-TheRouterSwift_Tests";
 			productName = Pods_TheRouterSwift_Tests;
@@ -293,19 +283,16 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProjectRef = 92E5B50508C2C2E70F345B3D4A81AE92 /* HandyJSON */;
+					ProjectRef = 9E5E225267FC27B54765513250E010CD /* JKSwiftExtension */;
 				},
 				{
-					ProjectRef = AE5BC55B436CE15F08F3E9651095A860 /* JKSwiftExtension */;
-				},
-				{
-					ProjectRef = B3E911B86853695C54B72BB762972700 /* SnapKit */;
+					ProjectRef = 9ABAD42CD64133FA00EEC54EF649E430 /* SnapKit */;
 				},
 				{
 					ProjectRef = C19C698356F016FEA8889CBC0BA363FE /* TheRouterSwift */;
 				},
 				{
-					ProjectRef = 156733D8FC84DA5B264FD8577DA1F08B /* Toast */;
+					ProjectRef = 690EF3777F5496AF316CEE0ECFA46FB2 /* Toast */;
 				},
 			);
 			projectRoot = "";
@@ -324,7 +311,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		986B8DD6E8045308F5C06E5BCC1AE8B1 /* Resources */ = {
+		A112E043D26BC1812C39732A596C77C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -334,11 +321,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		829B9C06F0250D8AE14B88479EDC68D6 /* Sources */ = {
+		8448BF92C2C62CDF75FC315A2321ACAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54E5A1504517A99818E3B3A091C2688F /* Pods-TheRouterSwift_Example-dummy.m in Sources */,
+				99F02F24FA5E950EB3BBC13319A2C55B /* Pods-TheRouterSwift_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,41 +340,36 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2BB52F3A4A6E0FC2010145CC9A0D2FE4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JKSwiftExtension;
-			targetProxy = 6DF7EA3F96750725093F0B9BDECDDECC /* PBXContainerItemProxy */;
-		};
-		324E09F6BDD6576765FF492243622E79 /* PBXTargetDependency */ = {
+		3CA496B25A396F36E336C59BEC5B298E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
-			targetProxy = DA03887A5B4B7C107507E85CA53F47A9 /* PBXContainerItemProxy */;
+			targetProxy = 9EFD6E9C06FF306AE35F01A33F1EFD62 /* PBXContainerItemProxy */;
 		};
-		3AFFF02038603187EDC8D97AE52FFDA7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Toast;
-			targetProxy = B374D41509B86C91D38747AD466AB262 /* PBXContainerItemProxy */;
-		};
-		4C5F6A32972363E98BFDF71732CA3AEB /* PBXTargetDependency */ = {
+		7FCC35B63B0090F3D72D0827CB7CA01A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TheRouterSwift;
-			targetProxy = D0488DF4DA4538F7CDE829574C7CDB08 /* PBXContainerItemProxy */;
+			targetProxy = 133C79390FB659506025B311559B7A1B /* PBXContainerItemProxy */;
 		};
-		898B3405DE19306DB2C24368211089EC /* PBXTargetDependency */ = {
+		B8718C23B14B9093547FC2B678170F67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = HandyJSON;
-			targetProxy = A1D9D389375BAF45E6AFEC723FBCF5D8 /* PBXContainerItemProxy */;
+			name = JKSwiftExtension;
+			targetProxy = 19A27797B6AE8F637A350669018C3905 /* PBXContainerItemProxy */;
 		};
-		A2FAFF0C33F6BD2CA8892EE9260A4A6C /* PBXTargetDependency */ = {
+		CF3CA46651CF484AFBBB898FDFABD1A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TheRouterSwift_Example";
 			target = 0EAEA5511B35E19F549333C2D4E48665 /* Pods-TheRouterSwift_Example */;
-			targetProxy = 9FD3681B06DFAFD40A1AB4DC40306AB7 /* PBXContainerItemProxy */;
+			targetProxy = C690808599B143AE0851B0032A43AD5E /* PBXContainerItemProxy */;
+		};
+		DECBF07AA25EF04922A4810F0B0D2116 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toast;
+			targetProxy = E84894C86A481154CDE915B039D8040E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0375CE146656E64D91C965700B4D70D2 /* Release */ = {
+		3544BE9B627FEAC3A4E68623DBEA99E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AC3B414A09748B8953C61C4230EF298A /* Pods-TheRouterSwift_Example.release.xcconfig */;
 			buildSettings = {
@@ -619,7 +601,7 @@
 			};
 			name = Debug;
 		};
-		EE4ED05457CE82552C03BEE79F0626AE /* Debug */ = {
+		EA634F566FDED72D9E584D92FA5CCD7F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C2F6FD752C3893454C895015193A7331 /* Pods-TheRouterSwift_Example.debug.xcconfig */;
 			buildSettings = {
@@ -674,11 +656,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A462296045A363B73A03A9EABAEBCB35 /* Build configuration list for PBXNativeTarget "Pods-TheRouterSwift_Example" */ = {
+		7039EC201F62F161F598071313DC6371 /* Build configuration list for PBXNativeTarget "Pods-TheRouterSwift_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE4ED05457CE82552C03BEE79F0626AE /* Debug */,
-				0375CE146656E64D91C965700B4D70D2 /* Release */,
+				EA634F566FDED72D9E584D92FA5CCD7F /* Debug */,
+				3544BE9B627FEAC3A4E68623DBEA99E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

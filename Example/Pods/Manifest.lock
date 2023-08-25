@@ -1,9 +1,7 @@
 PODS:
-  - HandyJSON (5.0.2)
   - JKSwiftExtension (2.3.8)
   - SnapKit (5.6.0)
-  - TheRouterSwift (0.1.0):
-    - HandyJSON
+  - TheRouterSwift (0.1.0)
   - Toast (4.0.0)
 
 DEPENDENCIES:
@@ -14,7 +12,6 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - HandyJSON
     - JKSwiftExtension
     - SnapKit
     - Toast
@@ -24,12 +21,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   JKSwiftExtension: 018e628d1b18908df69879e950aafa44ec894925
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
-  TheRouterSwift: b807b5587c5348b59fe173a5e6e6b12b4f38d073
+  TheRouterSwift: fcbdaeed17d42f14d787c84a49dbf914e4494709
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
 
-PODFILE CHECKSUM: 185944e49322f2e4608f3e0b8c22dedf3d4e29e6
+PODFILE CHECKSUM: cca21d16a3bc68f27cc7b4272cf00072cb3bba84
 
 COCOAPODS: 1.12.1
