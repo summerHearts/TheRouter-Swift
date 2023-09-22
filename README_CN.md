@@ -654,3 +654,7 @@ extension TheRouterController: TheRouterable {
 ## 开源协议
 
 TheRouterSwift 采用Apache2.0协议，详情参考[LICENSE](LICENSE)
+
+## 反馈沟通群
+![IMG_3365](https://github.com/summerHearts/TheRouter-Swift/assets/10678821/58f8f2ad-eebd-4659-a5e8-70db8874b4c2)
+
